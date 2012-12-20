@@ -102,7 +102,7 @@ public class Notepadv3 extends ListActivity {
         return super.onContextItemSelected(item);
     }
 
-    private void createNote() {
+   private void createNote() {
         Intent i = new Intent(this, NoteEdit.class);
         startActivityForResult(i, ACTIVITY_CREATE);
     }
